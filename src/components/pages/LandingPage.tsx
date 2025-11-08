@@ -14,15 +14,18 @@ export default function LandingPage() {
         <Hero />
         <Features />
         
-        {/* Simple HowItWorks section directly here */}
-        <section className="py-16 bg-gray-50 px-4 sm:px-6 lg:px-8">
+        {/* Simple section without import */}
+        <section className="py-16 bg-white px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              How It Works
+              Ready to Get Started?
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Simple 3-step process to get more leads
+            <p className="text-xl text-gray-600 mb-8">
+              Join thousands of sales teams using LeadFlowNex
             </p>
+            <button className="bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors text-lg font-semibold">
+              Start Free Trial
+            </button>
           </div>
         </section>
       </main>
